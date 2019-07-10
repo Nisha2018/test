@@ -180,7 +180,6 @@ nav:after{
 
 	nav{
 	float: none;	
-	background: #fff;
 	height: auto;
 	position: relative;
     }
@@ -204,6 +203,7 @@ nav:after{
         left: 10%;
         font-size: 20px;
         cursor: pointer;
+        color: #fff;
 	}
 
 	.iconbar:hover{
