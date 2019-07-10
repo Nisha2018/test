@@ -534,11 +534,13 @@ footer .grid{
 footer p{
 	color: #c1b5b5;
 	font-size: 1.4rem;
+	font-family: Arial, sans-serif;
 }
 
 footer a{
 	text-decoration: none;
 	color: #c1b5b5;
+	font-family: Arial, sans-serif;
 }
 
 footer a:hover{
@@ -547,7 +549,6 @@ footer a:hover{
 
 footer .title{
 	font-size: 1.8rem;
-    font-weight: bold;
     color: white;
 }
 
@@ -705,7 +706,11 @@ strong{
 
 	.about-us p:last-child{
 		text-align: justify;
-		padding: 1.5rem;
+		padding: 0 1.5rem;
+	}
+
+	.social-icons p:first-child{
+		padding-bottom: 15px;
 	}
 	
 }
@@ -750,5 +755,14 @@ strong{
 	.about-us p:last-child{
 		text-align: justify;
 		padding: 1.5rem;
+	}
+
+	.about-us p:last-child{
+		text-align: justify;
+		padding: 0 1.5rem;
+	}
+
+	.social-icons p:first-child{
+		padding-bottom: 15px;
 	}
 }
