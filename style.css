@@ -25,15 +25,19 @@ header{
 	grid-template-columns: 1fr;
 }
 
+.bg-image{
+	background: url("Images/bannerF.jpg");
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 2.5rem;
+}
+
 .home{
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: auto 1fr;
 	grid-row-gap: 5rem;
-	background: url("Images/bannerF.jpg");
-	background-size: cover;
-	background-position: center;
-	padding-bottom: 2.5rem;
+	
 }
 
 .intro{
@@ -61,7 +65,8 @@ header{
 nav{
 	width: 100%;
 	height: 70px;
-	background-color: #f5f5f4; 
+	background-color: transparent;
+	border-bottom: 1px solid #6c6a68;
 }
 
 #logo{
@@ -83,7 +88,7 @@ nav:after{
 
 .menu{
 	float: right;
-	width: 40%;
+	width: 45%;
 }
 
 .menu ul{
@@ -101,7 +106,7 @@ nav:after{
 .line{
 	display: block;
     position: absolute;
-    background: black;
+    background: #ffffff;
     width: 1px;
     height: 25px;
     top: 32%;
@@ -114,14 +119,14 @@ nav:after{
 	text-decoration: none;
 	font-weight: bold;
 	text-transform: uppercase;
-	color: black;
+	color: #ffffff;
 	font-size: 14px;
 	position: relative;
 }
 
 .menu>ul>li>a:hover{
 	color: #e5735c;
-	border-bottom: 2px solid black;
+	border-bottom: 2px solid #fff;
 }
 
 .dropdown>a:hover{
@@ -382,6 +387,7 @@ select{
 
 p{
 	font-size: 1.6rem;
+	font-family: 'Raleway',sans-serif;
 }
 
 .heading .description{
@@ -447,6 +453,7 @@ p{
 	display: grid;
 	grid-template-rows: repeat(3,1fr);
 	grid-template-columns: 1fr;
+	grid-row-gap: 2rem;
 }
 
 .blogs img{
@@ -662,6 +669,7 @@ strong{
 	display: grid;
 	grid-template-rows: 1fr;
 	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 2rem;
 	}
 
 	footer{
@@ -725,6 +733,7 @@ strong{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
+    grid-column-gap: 2rem;
 	}
 
 	.blogs .hide{
